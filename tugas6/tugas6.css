@@ -1,0 +1,120 @@
+/* semua nya * */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  background warna untuk body */
+body {
+    font-family: Arial;
+    background-color: #395B64;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style nya header */
+header {
+    background-color: #2C3333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* stylenya header */
+header h1 {
+    font-size: 2.5em;
+}
+ul {
+    list-style: none; /* cara ngilangin stylenya*/
+    padding-left: 0;
+    font-size: 1.2em;
+}
+ul li {
+    margin-bottom: 10px; /*jarak background dalem */
+}
+
+ul li a {
+    text-decoration: none;
+    color:7 #395B64;
+    font-weight: bold;
+}
+/* Stylenya sections */
+section {
+    background-color: #E7F6F2;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2C3333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+section div {
+    margin : 18px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+} 
+
+/* a */
+th, td {
+    padding: 10px; /* untuk jarak nya */
+    text-align: left; /* untuk rata kiri */
+    border-bottom: 1px solid #ddd;  /* garis bawah , 1px ukurann garisnya*/
+}
+
+form {
+    margin-top: 20px; /* jarak aja */
+}
+
+form label {
+    display: block; /* biar ga satu baris atau kebawah */
+    font-weight: bold; /* menebalkan font  */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form textarea {
+    width: 100%; /* full layar/mengikuti browser */
+    padding: 10px; /* input kita puya jarak*/
+    margin-bottom: 10px; /* jarak bawah */
+    border-radius: 5px; /* sudut tumpul  */
+    border: 1px solid #ccc; /* border semua sisi */
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* 10px atas bawah  20px kiri kanan */
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover { /* untuk bayangan ketika di arahkan */
+    background-color: #555;
+}
+
+/* Style footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2C3333;
+    color: #fff;
+}
