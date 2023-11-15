@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+fieldset {
+    background-color:#F1EB90;
+}
+
+nav {
+    display: flex;
+    margin: 0 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* 10px atas bawah  20px kiri kanan */
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <link rel="stylesheet" href="exxternal.css">
+</head>
+<body>
+    <header>
+        <h1>Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Jadwal</a></li>
+                <li><a href="">Detail Jadwal</a></li>
+                <li>Daftar peserta</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Mahasiswa Seminar : Diego Armado (0102002)</p> 
+        <p>Judul :Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Fromework</p>
+        <p>Waktu :Senin, 4 Januari 2021, 10-00</p>
+        <fieldset>
+            <legend>Form Peserta Seminar</legend>
+            <form action="Login.PHP" mathod="post"></form>
+            <div>
+                <label for="NIM">NIM : </label> 
+                <input type="text"> 
+            </div><br> 
+            <div>
+                <label for="Nama">Nama : </label>
+                <input type="text">
+            </div><br>
+            <div>
+                <label for="Prodi">Prodi :</label>
+                 <select>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Bisnis Digital">Bisnis digital</option>
+                </select> 
+            </div><br>
+            
+                <label for="Program">Program :</label>
+                <input type="radio" name="Pilihan" value="Pilihan1"> D3
+                <input type="radio" name="Pilihan" value="Pilihan2"> S1 Reguler
+                <input type="radio" name="Pilihan" value="Pilihan3"> S1 Fost Trockt
+                <input type="radio" name="Pilihan" value="Pilihan4"> S2 
+            <br>
+            
+                <input type="button" value="Daftar" class="button">
+            </form>
+        </fieldset>
+    </main>
+
+</body>
+</html>
