@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Lingkaran</title>
+
+    <!-- style css -->
+    <style>
+        body { text-align: center; }
+    </style>
+</head>
+<body>
+    <h2>Kalkulator Luas & Keliling Lingkaran</h2>
+    <br>
+    <span>Masukkan Nilai Jari-jari </span><input type="number" id="nilaiJari">
+    <button onclick="hitung()">Hitung</button>
+    <p id="hasilLuas"></p>
+    <p id="hasilKeliling"></p>
+    
+    <!-- javascript -->
+    <script>
+        function hitung() {
+            const phi = 3.14
+            let jariJari = document.getElementById("nilaiJari").value;
+            
+            // Hitung luas lingkaran
+            let hasilLuas = document.getElementById("hasilLuas");
+            let luas = phi * (jariJari * jariJari);
+            hasilLuas.innerText = "Luas Lingkaran : " + luas + " satuan persegi";
+
+            // Hitung keliling lingkaran
+            let hasilKeliling = document.getElementById("hasilKeliling");
+            let keliling = 2 * phi * jariJari;
+            hasilKeliling.innerHTML = "Keliling Lingkaran : " + keliling + " satuan panjang";
+        }
+    </script>
+</body>
+</html>
